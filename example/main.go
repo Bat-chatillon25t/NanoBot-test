@@ -15,8 +15,8 @@ func main() {
 			_, _ = ctx.SendPlainMessage(false, "echo string")
 		})
 	nano.Run(nil, &nano.Bot{
-		AppID:      "你的AppID",
-		Token:      "你的Token",
+		AppID:      "1112259025",
+		Token:      "3a403ed4da15cd28fca544e98e55dda5",
 		Secret:     "你的Secret, 目前没用到, 可以不填",
 		Intents:    nano.IntentPublic,
 		SuperUsers: []string{"用户ID1", "用户ID2"},
